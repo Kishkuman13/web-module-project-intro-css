@@ -1,0 +1,33 @@
+nav {
+    margin:5% auto;
+    width:90%;
+    text-align:center;
+  }
+  a {
+    color:white;
+    overflow-wrap:wrap;
+    width: 95px;
+    height: 20px;
+    font-family:monospace;
+    margin:5%;
+    padding:10px 20px 25px;
+    border-radius:15px;
+    display:inline-block;
+    font-size:1.2em;
+  }
+  .nav1 {
+    background-color:#FF764E;
+  }
+  .nav2 {
+    background-color:#5ED3EB;
+  }
+  .nav3 {
+    background-color:#FFCD69;
+  }
+  .heroimg {
+    width: 150px;
+    height: 150px;
+    border-radius:100%;
+    display:inline;
+  }
+  
