@@ -49,8 +49,21 @@ table {
 
 /* /\  RESET  /\ */
 
-/* \/ NEW CSS \/ */
+@font-face {
+  font-family: chelsea-market;
+  src: url(assets/ChelseaMarket-Regular.ttf);
+}
 
+@font-face {
+  font-family: roboto-mono;
+  src: url(assets/RobotoMono-Regular.ttf);
+}
+
+/* \/ NEW CSS \/ */
+body {
+  font-family: roboto-mono;
+  line-height:1.2em;
+}
 nav {
   margin:2% auto 5%;
   width:90%;
@@ -60,7 +73,7 @@ a {
   color:white;
   overflow-wrap:wrap;
   width: 95px;
-  height: 15px;
+  height: 20px;
   font-family:monospace;
   margin:2% 5%;
   padding:10px 20px 25px;
@@ -95,7 +108,7 @@ header h1 {
   width:70%;
   margin:2% auto 5%;
   font-size:2em;
-  font-family:chelsea_market;
+  font-family:chelsea-market;
   text-align:center;
 }
 .herotxt p {
