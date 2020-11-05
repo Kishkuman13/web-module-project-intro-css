@@ -59,6 +59,11 @@ table {
   src: url(assets/RobotoMono-Regular.ttf);
 }
 
+@font-face {
+  font-family: roboto-bold;
+  src: url(assets/RobotoMono-Bold.ttf);
+}
+
 /* \/ NEW CSS \/ */
 body {
   font-family: roboto-mono;
@@ -160,6 +165,9 @@ footer nav {
 }
 footer nav a {
   margin:2% 5%;
+}
+.bold {
+  font-family:roboto-bold;
 }
 .clearfix::after {
   content: "";
